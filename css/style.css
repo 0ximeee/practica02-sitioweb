@@ -27,7 +27,7 @@ header, nav, footer{
 header{
     background-color: #baceeb;
     display: flex;
-    height: 10vh;
+    height: 50px;
     justify-content: center;
     align-items: center;
 
@@ -38,17 +38,53 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 5vh;
+    height: 25px;
 }
 
 main{
-    height: 75vh;
+    height: auto;
+    display: flex;
+    text-align: center;
+    
+}
+
+article{
+    background-color: beige;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+
+}
+
+.left{
+    background-color: rgb(238, 233, 93);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.right{
+    background-color: rgb(239, 138, 240);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.btn-news{
+    text-decoration: none;
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
 }
 
 footer{
     background-color: #dcdcdc;
     display: flex;
-    height: 10vh;
+    height: 25px;
     justify-content: center;
     align-items: center;
     
