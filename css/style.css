@@ -84,9 +84,56 @@ article{
 footer{
     background-color: #dcdcdc;
     display: flex;
-    height: 25px;
+    height: 35px;
     justify-content: center;
     align-items: center;
     
+}
+
+@media(max-width: 768px){
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    main{
+        flex-direction: column;
+        
+    }
+
+    article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+        flex: 1;
+        text-align: start;
+        padding: 10px;
+    }
+
+    .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+    }
+
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 3;
+        
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
 }
 
